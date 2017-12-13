@@ -5,8 +5,8 @@ var dinosaurUpperCased = dinosaur.toUpperCase();
 
 var textCharsAfter = text.replace('Velociraptor', dinosaurUpperCased);
 
-console.log(textCharsAfter.length / 2);
 var sli = textCharsAfter.length / 2;
-var partOfMotto = textCharsAfter.slice(0, sli);
+console.log(sli);
 
+var partOfMotto = textCharsAfter.slice(0, sli);
 console.log(partOfMotto);
